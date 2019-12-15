@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px){
+    .input_desno{
+        width: 100%;
+    }
+    
+    .gumb{
+        width: 50%;
+    }
+    
+    ul{
+        display: inline-grid;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .navigacija{
+        width: 100%;
+        display: inline-block;
+    }
+    
+    .slideshow-item, .slideshow-item2, .slideshow-item3, .slideshow-item5, .slideshow-item10, .slideshow-item12, .slideshow-item9{
+        width: 90%;
+    }
+    
+    img{
+        max-width: 90%;
+    }
+    
+    table{
+        width: 100%;
+    }
+}
+
+@media print{
+    table, ul, .navigacija, .gumb, input, label, .zaglavlje{
+        display: none;
+    }
+    canvas{
+        width: 100%;
+    }
+    body:before{
+        content:"Statistika";
+    }
+}
+

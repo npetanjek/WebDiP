@@ -1,0 +1,7 @@
+<FilesMatch "korisnici.php">
+AuthType Basic
+AuthUserFile /var/www/WebDiP/2017_projekti/WebDiP2017x114/Privatno/.htpasswd
+AuthName "Administrator baze podataka"
+Require valid-user
+</FilesMatch>
+

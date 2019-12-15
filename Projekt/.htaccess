@@ -1,0 +1,5 @@
+RewriteEngine On
+Rewritebase /
+
+RewriteCond %{HTTPS} off
+RewriteRule ^login\.php barka.foi.hr/WebDiP/2017_projekti/WebDiP2017x114/prijavaRegistracija.php?mod=prijava [L,R=301]
